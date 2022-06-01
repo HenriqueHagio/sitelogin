@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body{
+        width:auto;
+        height: 400px;
+        background-image: url('/logintragam/images/background.webp');
+        background-size: cover;
+        color: aliceblue;
+        text-align: center;
+        
+    }
+    h1{
+        padding: 1em;
+        font-weight: bold;
+    }
+    input[type=email], select{
+        display: inline-block;
+
+    }
+    
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login :D</h1>
+    <h2>Have an account?</h2>
+    <form>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label for="pass">Password</label>
+        <input type="password">
+        <input type="submit" value="Login" onclick="lsRememberMe()">
+        <input type="checkbox" value="lsRememberMe" id="rememberMe"> 
+        <label for="rememberMe">Remember me</label>
+        <a href="file:///C:/Users/heryq/Documents/HTML/logintragam/logintragam.html" 
+        style="text-decoration: none;" >Forgot Password?</a>
+      </form>
+      <p>-Or Sign with-</p>
+      <button class="button"
+      onclick="alert('Under Maintenence')">Facebook</button>
+      <button class="button"
+      onclick="alert('Under Maintenence')">Twitter</button>
+</body>
+</html>
